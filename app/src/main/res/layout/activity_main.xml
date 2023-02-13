@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3BE2FF"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="38dp"
+                android:layout_toStartOf="@+id/rating"
+                android:text="Quality"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="93dp"
+                android:layout_marginEnd="20dp"
+                android:numStars="5"
+                android:progressTint="#FFF200" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="173dp"
+                android:layout_marginEnd="38dp"
+                android:layout_toStartOf="@+id/rating"
+                android:text="Quantity"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <RatingBar
+                android:id="@+id/rating2"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="186dp"
+                android:layout_marginEnd="18dp"
+                android:progressTint="#FFF200"
+                android:numStars="5" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="349dp"
+                android:layout_marginEnd="35dp"
+                android:layout_toStartOf="@+id/rating"
+                android:text="Taste"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <RatingBar
+                android:id="@+id/rating3"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="347dp"
+                android:layout_marginEnd="18dp"
+                android:progressTint="#FFF200"
+                android:numStars="5" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="257dp"
+                android:layout_marginEnd="33dp"
+                android:layout_toStartOf="@+id/rating"
+                android:text="Service"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <RatingBar
+                android:id="@+id/rating4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="265dp"
+                android:layout_marginEnd="21dp"
+                android:progressTint="#FFF200"
+                android:numStars="5" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="164dp"
+                android:layout_height="65dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="332dp"
+                android:background="#1D6E0A"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="950dp"
+                android:layout_marginEnd="19dp"
+                android:layout_toStartOf="@+id/rating"
+                android:text="Total"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+            <RatingBar
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="950dp"
+                android:layout_marginEnd="-3dp"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:progressTint="#FFF200" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
